@@ -17,6 +17,14 @@ body {
   font-size: 14px;
   background-color: #eff2f1; }
 
+  
+/* For mobile devices (max-width: 767px) */
+@media (max-width: 767px) {
+  img.img-fluid {
+  width: 350px;
+  }
+}
+		  
 a {
   text-decoration: none;
   -webkit-transition: .3s all ease;
