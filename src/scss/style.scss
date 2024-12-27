@@ -131,6 +131,7 @@ a {
 	}
 }
 
+
 // Hero 
 .hero {
 	background: $primary;
@@ -167,6 +168,7 @@ a {
 		position: relative;
 		img {
 			position: relative;
+			border-radius: 20px;
 			top: 0px;
 			right: 0px;
 			z-index: 2;
@@ -207,6 +209,7 @@ a {
 		}
 	}
 }
+
 
 // Button 
 .btn {
