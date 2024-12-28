@@ -280,7 +280,7 @@ a {
       height: 70%; }
 
 .why-choose-section {
-  padding: 7rem 0; }
+  padding: 1rem 0; }
   .why-choose-section .img-wrap {
     position: relative; }
     .why-choose-section .img-wrap:before {
@@ -322,7 +322,7 @@ a {
     color: #6a6a6a; }
 
 .we-help-section {
-  padding: 7rem 0; }
+  padding: 3rem 0; }
   .we-help-section .imgs-grid {
     display: -ms-grid;
     display: grid;
@@ -515,7 +515,7 @@ a {
         background-color: #59a3a5; }
 
 .before-footer-section {
-  padding: 7rem 0 12rem 0 !important; }
+  padding: 4rem 0 6rem 0 !important; }
 
 .blog-section {
   padding: 7rem 0 12rem 0; }
@@ -593,9 +593,14 @@ a {
       border-radius: 10px !important; }
   .footer-section .sofa-img {
     position: absolute;
-    top: -200px;
+    top: -100px;
     z-index: 1;
     right: 0; }
+    @media (max-width: 768px) {
+      .footer-section .sofa-img {
+          top: -200px;
+      }
+  }
     .footer-section .sofa-img img {
       max-width: 380px; }
   .footer-section .links-wrap {
