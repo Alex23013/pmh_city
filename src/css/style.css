@@ -31,12 +31,20 @@ body {
   margin:1%;
   margin-top: -6%;
 }
+.img-logo{
+  width: 200px;
+}
 @media (max-width: 767px) {
   .services-img {
   width: 350px;
   margin: 3%;
   }
+  .img-logo{
+    width: 120px;
+  }
 }
+
+
 		  
 a {
   text-decoration: none;
