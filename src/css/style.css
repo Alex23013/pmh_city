@@ -24,6 +24,19 @@ body {
   width: 350px;
   }
 }
+
+.services-img {
+  width: 500px; 
+  border-radius: 20px; 
+  margin:1%;
+  margin-top: -6%;
+}
+@media (max-width: 767px) {
+  .services-img {
+  width: 350px;
+  margin: 3%;
+  }
+}
 		  
 a {
   text-decoration: none;
@@ -671,6 +684,7 @@ a {
     background: #59a3a5;
     margin-right: 20px;
     color: #ffffff; }
+    
 
 textarea {
   height: auto !important; }
